@@ -131,4 +131,15 @@ fig.update_layout(
     template="plotly_dark",
 )
 
-fig.show()
+# --- SMART OUTPUT CHANNELS ---
+# 1. Save the interactive 3D space as a standalone web page
+fig.write_html("crypto_fog_map.html")
+print("Visual telemetry successfully exported to: crypto_fog_map.html")
+
+# 2. Try to open the browser locally (will be safely skipped on headless servers like GitHub)
+try:
+    import os
+    if 'GITHUB_ACTIONS' not in os.environ:
+        fig.show()
+except Exception:
+    pass
