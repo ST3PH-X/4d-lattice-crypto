@@ -2,7 +2,7 @@
 
 An experimental, lightweight cryptography concept implementing high-dimensional lattice-style mechanics in a 4D vector space. Built from scratch using pure linear algebra without relying on heavy external crypto libraries.
 
-> *"Technical complexity for the sake of complexity is just noise. The magic happens when deep engineering directly creates elegant solutions to real-world constraints."* — **ST3PH-X**
+> *"Technical complexity for the sake of complexity is just noise. The magic happens when deep engineering directly creates elegant solutions to real-world constraints".* — **ST3PH-X**
 
 ---
 
